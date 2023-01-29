@@ -1,7 +1,7 @@
 {
   "required": false,
   "compatibilityLevel": "JAVA_8",
-  "package": "com.client.epsilon.mixin.mixins",
+  "package": "studio.coni.epsilon.mixin.mixins",
   "minVersion": "0.7",
   "refmap": "mixins.epsilon.refmap.json",
   "mixins": [
@@ -53,6 +53,7 @@
     "player.MixinEntityPlayerSP",
     "player.MixinPlayerControllerMP",
     "player.MixinRenderPlayer",
+    "render.MixinBufferBuilder",
     "render.MixinEntityRenderer",
     "render.MixinGuiIngame",
     "render.MixinGuiSubtitleOverlay",
@@ -61,6 +62,7 @@
     "render.MixinRenderGlobal",
     "render.MixinRenderLivingBase",
     "render.MixinRenderManager",
+    "world.MixinBlock",
     "world.MixinBlockLiquid",
     "world.MixinBlockSoulSand",
     "world.MixinBlockWeb",

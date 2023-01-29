@@ -1,10 +1,1 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-    }
-    plugins {
-        id "org.jetbrains.kotlin.jvm" version kotlinVersion
-    }
-}
-
-rootProject.name = "OpenEpsilon"
+rootProject.name = "EpsilonPlus"
